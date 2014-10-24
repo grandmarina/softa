@@ -12,7 +12,7 @@ x=int(input("Valitse toiminto (1-5): "))
 if x == 1:
     val="Summa"
     m="+"
-    vast=luku1+luku1
+    vast=luku1+luku2
 elif x==2:
     val="Erotus"
     m="-"
@@ -38,7 +38,6 @@ elif (x not in [1,2,3,4,5]):
 if luku2==0 or (x not in [1,2,3,4,5]):
     print("")
 else:
-
-    print(val, luku1, m, luku2, "=", vast,)
+    print(val, luku1, m, luku2, "=", vast)
 
 
